@@ -7,28 +7,28 @@ const Project = () => {
           </div>
           <div className="grid gap-8 sm:grid-cols-2 sm:mx-8">
               <div className="relative h-[35vh] sm:w-[45vh] sm:mx-80">
-                  <img src="public\EC_Retail_ECommerce_750.jpg" className="w-full h-full object-cover" alt="Eccomerce" />
+                  <img src="EC_Retail_ECommerce_750.jpg" className="w-full h-full object-cover" alt="Eccomerce" />
                   <div className="absolute inset-0 bg-slate-200 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center">
                       <div className="text-[6vh]">Eccomerce</div>
                       <a href="https://suman31122000.github.io/eccomercesite/">Visit Me</a>
                   </div>
               </div>
               <div className="relative h-[35vh] sm:w-[45vh]">
-                  <img src="public\blog2.jpg" className="w-full h-full object-cover" alt="Pathfinder" />
+                  <img src="blog2.jpg" className="w-full h-full object-cover" alt="Pathfinder" />
                   <div className="absolute inset-0 bg-slate-200 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center">
                       <div className="text-[6vh]">Pathfinder</div>
                       <a href="https://suman31122000.github.io/pathfinder/">Visit Me</a>
                   </div>
               </div>
               <div className="relative h-[35vh] sm:w-[45vh] sm:mx-80">
-                  <img src="public\port2.jpg" className="w-full h-full object-cover" alt="Todoapp" />
+                  <img src="port2.jpg" className="w-full h-full object-cover" alt="Todoapp" />
                   <div className="absolute inset-0 bg-slate-200 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center">
                       <div className="text-[6vh]">Todoapp</div>
                       <a href="https://main--sage-cannoli-0c193c.netlify.app/">Visit Me</a>
                   </div>
               </div>
               <div className="relative h-[35vh] sm:w-[45vh]">
-                  <img src="public\port3.jpg" className="w-full h-full object-cover" alt="Quizverse" />
+                  <img src="port3.jpg" className="w-full h-full object-cover" alt="Quizverse" />
                   <div className="absolute inset-0 bg-slate-200 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center">
                       <div className="text-[6vh]">Quizverse</div>
                       <a href="https://quizzverse.netlify.app/">Visit Me</a>
