@@ -2,8 +2,8 @@ const Project=()=>{
     return(
         <div id="projects" className="flex flex-col bg-slate-900">
       <div className="flex flex-col justify-center items-center text-white text-[4vh] my-10">
-        <span className="text-[10vh]">MY PROJECT</span>
-        <span>Here is some of my work that i've done in various programming languages</span>
+        <span className="text-[7vh]">MY PROJECT</span>
+        <span className="text-[4vh]">Here is some of my work that i've done in various programming languages</span>
       </div>
       <div className="grid grid-cols-2 gap-24 mx-[60vh] ">
 

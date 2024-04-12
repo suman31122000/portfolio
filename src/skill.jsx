@@ -11,19 +11,17 @@ const Skills = () => {
   ];
 
   return (
-      <div id="skills" className="bg-gray-900 text-white flex flex-col justify-center items-center">
-        <span className=" text-6xl my-5">SKILLS </span>
+      <div id="skills" className="bg-gray-900 text-white flex flex-col ">
           <div className='grid sm:grid-cols-2'>
-
               <div className='flex flex-col items-center'>
-                  <p className="my-16 text-4xl"></p>
+                  <p className="my-16 text-4xl">ABOUT ME</p>
                   <span className=" text-xl italic mx-10 border-4 p-10 border-y-green-600">Hello and welcome! I'm Suman Bando, a passionate software developer dedicated to crafting innovative solutions that make a meaningful impact. Through this portfolio, I invite you to explore my journey,
                      projects, and expertise in the realm of software development.</span>
               </div>
 
               <div className="flex flex-col gap-2 my-8">
                 <span className="flex justify-center text-6xl"></span>
-
+                <span className=" text-4xl my-5 mx-44">SKILLS </span>
                   <div className="w-96"> 
                       {skills.map((skill, index) => (
                           <div key={index} className="container">
