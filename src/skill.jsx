@@ -1,4 +1,19 @@
+import { useState,useEffect } from "react";
 const Skills = () => {
+        const [text, setText] = useState('');
+        const [fullText, setFullText] = useState("Hello and welcome! I'm Suman Bando, a passionate software developer dedicated to crafting innovative solutions that make a meaningful impact. Through this portfolio, I invite you to explore my journey,projects, and expertise in the realm of software development.");
+        const [typingIndex, setTypingIndex] = useState(0);
+      
+        useEffect(() => {
+          const typingTimer = setTimeout(() => {
+            setText(fullText.substring(0, typingIndex));
+            if (typingIndex < fullText.length) {
+              setTypingIndex(typingIndex + 1);
+            }
+          }, 1); 
+      
+          return () => clearTimeout(typingTimer);
+        }, [typingIndex, fullText]);
     const skills = [
         { name: 'HTML', percentage: 90 },
         { name: 'CSS', percentage: 60 },
@@ -15,8 +30,7 @@ const Skills = () => {
             <div className='grid sm:grid-cols-2'>
                 <div className='flex flex-col items-center'>
                     <p className="my-16 text-4xl">ABOUT ME</p>
-                    <span className=" text-xl italic mx-10 border-4 p-10 border-y-green-600">Hello and welcome! I'm Suman Bando, a passionate software developer dedicated to crafting innovative solutions that make a meaningful impact. Through this portfolio, I invite you to explore my journey,
-                       projects, and expertise in the realm of software development.</span>
+                    <span className=" text-xl italic mx-10 border-4 p-10 border-y-green-600">{text}</span>
                 </div>
   
                 <div className="flex flex-col gap-2 my-8">
@@ -42,6 +56,6 @@ const Skills = () => {
             </div>
         </div>
     );
-  }
+}
   
   export default Skills;

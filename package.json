@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "sheryjs": "^1.0.0-beta.0.1.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
