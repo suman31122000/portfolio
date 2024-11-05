@@ -24,7 +24,7 @@ const Landing = () => {
                     <span className="text-2xl md:text-5xl italic text-end">I Am<span className="text-slate-700 sm:text-6xl"> Suman Bando </span></span>
                     <span className="text-3xl md:text-5xl italic text-end">{developerType}</span>
                     <button className="mt-8 md:mt-12 h-9 w-32 ml-[85%] rounded-md px-8 py-2 text-sm font-semibold text-white shadow-lg shadow-gray-500/50 hover:bg-gray-300 hidden sm:flex z-10">
-                        <a href="https://docs.google.com/document/d/1fyA0Y4QDZlxk0bMd5hVxF7wHrE5MSvoz/edit?usp=sharing&ouid=110023528186454540801&rtpof=true&sd=true" className="block w-full h-full">
+                        <a href="https://drive.google.com/file/d/1Vh4WETIt_Mq9PLnnWzEH5zj6Vh6Tu_qz/view " className="block w-full h-full">
                             Resume
                         </a>
                     </button>
