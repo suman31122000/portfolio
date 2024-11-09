@@ -3,7 +3,7 @@ const Project = () => {
       { imageUrl: "image50.webp", link: "https://bookstoreproject1.netlify.app/", title: "Bookstore" },
       { imageUrl: "image1.jpg", link: "https://evokegym.netlify.app", title: "Evogym" },
       { imageUrl: "blog2.jpg", link: "https://suman31122000.github.io/pathfinder/", title: "Pathfinder" },
-      { imageUrl: "EC_Retail_ECommerce_750.jpg", link: "https://suman31122000.github.io/eccomercesite/", title: "Eccomerce" },
+      { imageUrl: "EC_Retail_ECommerce_750.jpg", link: "https://wcommerce.netlify.app/", title: "Eccomerce" },
       { imageUrl: "port3.jpg", link: "https://quizzverse.netlify.app/", title: "Quizverse" },
       { imageUrl: "port2.jpg", link: "https://main--sage-cannoli-0c193c.netlify.app/", title: "Todoapp" },
     ];
