@@ -40,8 +40,9 @@ function Contact() {
             <div className="flex flex-col justify-center text-white mt-10">
                 <div className="flex flex-col justify-center items-center my-5">
                     <span>Address</span>
-                    <span>Babapath Hurhuru Hazaribag </span>
-                    <span>Jharkhand,825301</span>
+                    <span>saharada Krishna Nilaya
+                    7th B Cross Rd, Industrial Area, Stage 2, BTM Layout, Bengaluru</span>
+                    <span>Karnataka 560076</span>
                 </div >
                 <div className="flex flex-col justify-center items-center my-5 ">
                     <span>Lets Talk</span>
@@ -53,27 +54,63 @@ function Contact() {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center my-10">
-                <span className="text-[5vh] my-10 text-white">CONNECT ME</span>
-                <form onSubmit={sendEmail} ref={form} className="flex flex-col text-white border-4 rounded-lg">
-                    <div className="flex flex-col justify-center items-center">
-                        <span className="my-1">TELL ME YOUR NAME</span>
-                        <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Full Name" className="h-[5vh] w-[60vh] my-4 border-none bg-slate-400 "></input>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <span>ENTER YOUR EMAIL</span>
-                        <input name="email" value={formData.email} onChange={handleChange} type="email" placeholder="Eg exampe@gmail.com " className="h-[5vh] w-[60vh] my-4 bg-slate-400"></input>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <span>ENTER YOUR PHONE NUMBER</span>
-                        <input type="text" value={formData.phoneNumber} name="phoneNumber" onChange={handleChange} placeholder="Eg +184515444587" className="h-[5vh] w-[60vh] my-4 bg-slate-400"></input>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <span>MESSAGE</span>
-                        <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Write Us a message" className="h-[20vh] w-[60vh] my-4 bg-slate-400 resize-none"></textarea>
-                    </div>
-                    <button type="submit" className="mx-[190px] my-2 w-32 rounded-md bg-green-400 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-gray-500/50 hover:bg-gray-800">SEND</button>
-                </form>
-            </div>
+      <span className="text-[5vh] my-10 text-white">CONNECT ME</span>
+      <form onSubmit={sendEmail} ref={form} className="flex flex-col text-white border-4 rounded-lg p-4 bg-gray-100 h-[90vh] w-[80vh] overflow-auto">
+        <div className="flex flex-col justify-center items-center mb-4">
+          <label htmlFor="name"  className="text-gray-950 ">NAME</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Full Name"
+            className="h-[5vh] w-[70%] my-4 border-none bg-slate-400 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-center  mb-4">
+          <label htmlFor="email" className="text-gray-950 ">EMAIL</label>
+          <input
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            type="email"
+            placeholder="Eg example@gmail.com"
+            className="h-[5vh] w-[70%] my-4 bg-slate-400 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-center mb-4">
+          <label htmlFor="phoneNumber" className="text-gray-950 ">PHONE NUMBER</label>
+          <input
+            id="phoneNumber"
+            type="text"
+            value={formData.phoneNumber}
+            name="phoneNumber"
+            onChange={handleChange}
+            placeholder="Eg +184515444587"
+            className="h-[5vh] w-[70%] my-4 bg-slate-400 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-center mb-4">
+          <label htmlFor="message" className="text-gray-950 ">MESSAGE</label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            placeholder="Write Us a message"
+            className="h-[12vh] w-[70%] my-4 bg-slate-400 rounded-lg p-2 resize-none focus:outline-none focus:ring-2 focus:ring-yellow-300"
+          />
+        </div>
+        <button
+          type="submit"
+          className="mx-auto w-32 rounded-md bg-green-400 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-gray-500/50 hover:bg-gray-800"
+        >
+          SEND
+        </button>
+      </form>
+    </div>
         </div>
     );
 }

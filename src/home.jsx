@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SocialLogin from "./profile/profile.jsx";
 const Home=()=>{
     const handleskill=()=>{
         const skillsElement = document.getElementById('skills');

@@ -3,8 +3,10 @@ import Home from "./home";
 import Landing from "./landing";
 import Skills from "./skill";
 import Project from "./project";
+import { BrowserRouter } from "react-router-dom";
 const App=()=>{
   return(
+    <BrowserRouter>
     <div>
     <Home/>
     <Landing/>
@@ -12,6 +14,7 @@ const App=()=>{
     <Project/>
     <Contact/>
     </div>
+    </BrowserRouter>
   )
 }
 export default App;
