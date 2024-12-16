@@ -1,6 +1,6 @@
 const Resume=()=>{
     const handleclick=()=>{
-        window.location='https://drive.google.com/file/d/1Gr7LtLmQTmeouiPxsh1haQWi69OZTOYC/view?usp=sharing'
+        window.location='https://drive.google.com/file/d/15pzOMBJIuSPiMXZk7lGyOfCmh0howEv3/view?usp=sharing'
     }
     return (
 <button  onClick={handleclick}
