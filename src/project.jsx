@@ -1,8 +1,8 @@
 const Project = () => {
     const projects = [
       { imageUrl: "EC_Retail_ECommerce_750.jpg", link: "https://wcommerce.netlify.app/", title: "Eccomerce" },
-      { imageUrl: "image50.webp", link: "https://bookstoreproject1.netlify.app/", title: "Bookstore" },
       {imageUrl:"taskimage.avif", link:"https://taskmanagementsy.netlify.app/",title:"Task Management"},
+      { imageUrl: "image50.webp", link: "https://bookstoreproject1.netlify.app/", title: "Bookstore" },
       { imageUrl: "image1.jpg", link: "https://evokegym.netlify.app", title: "Evogym" },
       { imageUrl: "blog2.jpg", link: "https://suman31122000.github.io/pathfinder/", title: "Pathfinder" },
       { imageUrl: "port3.jpg", link: "https://quizzverse.netlify.app/", title: "Quizverse" },
